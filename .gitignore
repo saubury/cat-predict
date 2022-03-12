@@ -1,6 +1,5 @@
 venv/*
-notebooks/.ipynb_checkpoints/*
-notebooks/churn_clf.pkl
-notebooks/tree.dot
-notebooks/tree.png
+*/.ipynb_checkpoints/*
+*/old/*
+*.dot
 tmp/churn_clf.pkl

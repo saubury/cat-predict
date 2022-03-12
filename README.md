@@ -22,6 +22,13 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
+## Streamlit
+
+
+```console
+streamlit run cat_predictor_app_simple.py
+```
+
 ## References
 
 https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c

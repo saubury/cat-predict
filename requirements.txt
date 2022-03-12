@@ -1,3 +1,5 @@
 jupyterlab
 pandas
 sklearn
+streamlit
+seaborn
