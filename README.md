@@ -21,3 +21,9 @@ pip install -r requirements.txt
 ```console
 jupyter lab
 ```
+
+## References
+
+https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c
+
+https://builtin.com/machine-learning/streamlit-tutorial
