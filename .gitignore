@@ -3,3 +3,4 @@ venv/*
 */old/*
 *.dot
 tmp/churn_clf.pkl
+data_dbt_tmp/*

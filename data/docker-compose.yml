@@ -1,0 +1,18 @@
+services:
+    postgres:
+      image: 'postgres:${PG_VER}'
+      environment:
+        TZ: ${TZ_SET}      
+        POSTGRES_USER: dbt
+        POSTGRES_PASSWORD: password1234
+        POSTGRES_DB: hass_db
+      volumes:
+        - ./input_data:/input_data
+        - ./warehouse_setup:/docker-entrypoint-initdb.d        
+      healthcheck:
+        test: ["CMD", "pg_isready", "--dbname", "hass_db", "--username", "dbt"]
+        interval: 5s
+        retries: 5
+      restart: always
+      ports:
+        - 5432:5432

@@ -1,5 +1,30 @@
 # Cat Prediction
 
+# Data
+
+Setup Postgres
+
+```console
+cd data
+docker compose up -d
+```
+
+
+# DBT
+
+Setup dbt
+
+```console
+cd cat_predict_dbt
+export DBT_PROFILES_DIR=$(pwd)
+dbt debug
+```
+
+
+# Notebooks
+```console
+cd notebooks
+```
 
 ## Setup
 
