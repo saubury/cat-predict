@@ -18,6 +18,10 @@ Setup dbt
 cd cat_predict_dbt
 export DBT_PROFILES_DIR=$(pwd)
 dbt debug
+
+-- documentation
+dbt docs generate
+dbt docs serve
 ```
 
 

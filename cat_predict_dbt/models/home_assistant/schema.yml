@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: state_clean
+    description: "Initial clean of the home assitant state table"
+
+  - name: cat_events
+    description: "Hourly summary of cat locations"
+
+  - name: house_events
+    description: "Hourly summary of environment"
