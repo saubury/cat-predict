@@ -16,3 +16,15 @@ services:
       restart: always
       ports:
         - 5432:5432
+
+    dbt:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      depends_on:
+        - postgres
+      volumes:
+        - ./cat_predict_dbt:/cat_predict_dbt
+      ports:
+        - 8080:8080
+       

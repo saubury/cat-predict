@@ -14,10 +14,13 @@ docker compose up -d
 
 Setup dbt
 
+```docker compose exec test bash```
+
 ```console
 cd cat_predict_dbt
 export DBT_PROFILES_DIR=$(pwd)
 dbt debug
+dbt run --target devdocker
 
 -- documentation
 dbt docs generate
