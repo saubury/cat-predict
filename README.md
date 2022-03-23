@@ -1,4 +1,10 @@
 # Cat Prediction
+Can ML predict where my cat is now?
+
+Train a model to predict where Snowy would go throughout her day.
+
+For an overview see [blog](https://simonaubury.com/202202_cat_predition1)
+
 
 # Data
 
@@ -53,13 +59,9 @@ jupyter lab
 
 ## Streamlit
 
-
-```console
-streamlit run cat_predictor_app_simple.py
-```
+See https://github.com/saubury/cat-predict-app
 
 ## References
 
-https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c
-
-https://builtin.com/machine-learning/streamlit-tutorial
+- [How to Visualize a Decision Tree from a Random Forest in Python using Scikit-Learn](https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)
+- [Streamlit](https://github.com/saubury/cat-predict-app)
