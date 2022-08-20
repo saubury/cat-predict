@@ -3,7 +3,7 @@ Can ML predict where my cat is now?
 
 Train a model to predict where Snowy would go throughout her day.
 
-For an overview see [blog](https://simonaubury.com/202202_cat_predition1)
+For an overview see Towards Data Science blog [Can ML predict where my cat is now?](https://towardsdatascience.com/can-ml-predict-where-my-cat-is-now-part-2-7efaec267339)
 
 
 # Data
